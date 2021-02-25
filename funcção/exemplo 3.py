@@ -1,4 +1,10 @@
 def calculaImposto(sal,imposto = False):
+
+    """
+    função que calcula o imposto de um funcionario
+    \nsal: parametro que recebe o salario do funcionario
+    \nimposto: parametro opcional que permite mudar o valor do imposto
+    """
     if imposto:
         desconto = float(input("qual a porcentagem do imposto: "))
     else:
