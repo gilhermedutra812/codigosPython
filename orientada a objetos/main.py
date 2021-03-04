@@ -12,3 +12,7 @@ contaPessoal.visualisar()
 minhaConta = Conta1(589,"epamenonas",700)
 
 print(minhaConta.saldo)
+
+minhaConta.saldo = -600
+
+print(minhaConta.saldo)

@@ -37,3 +37,13 @@ class Conta1:
     @property
     def saldo(self):
         return f"o seu saldo é R${self.__saldo}"
+
+    #inserindo valoes no atributo
+
+    @saldo.setter
+    def saldo(self, valor):
+        if valor < 0:
+            print("voce nao pode depositar valores negativos")
+        else:
+            self.__saldo += valor
+            print("valor depositado com sucesso")
