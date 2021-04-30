@@ -9,4 +9,4 @@ media = sum(temp)/cont
 print(f"a media anual de temperatura foi {media:.2f}\n")
 for indice,cont in enumerate(temp):
     if cont > media:
-        print(f"{mes[indice]:.<10}: {cont}")
+        print(f"{m[indice]:.<10}: {cont}")
